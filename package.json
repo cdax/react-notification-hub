@@ -1,0 +1,40 @@
+{
+  "name": "react-notification-hub",
+  "version": "0.0.1",
+  "description": "Make any React component a full-fledged notification centre",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdax/react-notification-hub.git"
+  },
+  "keywords": [
+    "react",
+    "notification",
+    "badge"
+  ],
+  "author": "Chitharanjan Das <das.chitharanjan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdax/react-notification-hub/issues"
+  },
+  "homepage": "https://github.com/cdax/react-notification-hub#readme",
+  "dependencies": {
+    "classnames": "^2.2.3",
+    "react": "^0.14.7",
+    "react-addons-update": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "velocity-react": "^1.1.3"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
